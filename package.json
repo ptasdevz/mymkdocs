@@ -1,0 +1,21 @@
+{
+  "name": "PWA-Docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "mkdocs build && workbox injectManifest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "workbox-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "@material/snackbar": "^4.0.0"
+  }
+}
